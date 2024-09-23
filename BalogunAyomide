@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <h1>APPLICATION FORM</h1>
+        <h5>This form is for one student. If multiple copies needed,this need to be <i><u>Photocopy.</u></i> </h5>
+        <p><strong><i>PART A: STUDENT DATA</i></strong></p>
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Full Name" required>
+        </div>
+
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+
+        <div>
+            <label for="phonenumber">Phone Number:</label>
+            <input type="number" id="phonenumber" name="phonenumber" required>
+        </div>
+
+        <div>
+            <label for="gender">Gender:</label>
+            <select>
+                <option id="">-Select</option required>
+                <option id="male">Male</option required>
+                <option id="female">Female</option required>
+                <option id="other">Other</option required>
+            </select>
+        </div>
+
+        <div>
+            <label for="course">Course:</label>
+            <label for="course"> Medicine</label><input type="checkbox" name="intrest"> Software engineering <input type="checkbox" name="intrest" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</labela>
+            <input type="email" id="email" name="email" placeholder="balogun7@gmail.com">
+        </div>
+
+        <div>
+            <label for=""></label>
+        </div>
+
+        <hr>
+
+        <p><strong><i>PART B: MORE INFORMATION</i></strong></p>
+
+        <div>
+            <label for="country">Country:</label>
+            <select>
+                <option id="">-Select-</option>
+                <option id="usa">United State Of American</option>
+                <option id="nigeria">Nigeria</option>
+                <option id="canada">Canada</option>
+                  
+            </select>
+        </div>
+
+        <label for="bio">Bio:</label>
+        <textarea id="bio" rows="10" cols="30">Tell Us More About Your Self.</textarea>
+
+        <button for="submit">Submit</button>
+
+    </form>
+     
+</body>
+</html>
